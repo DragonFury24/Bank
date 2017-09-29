@@ -31,6 +31,6 @@ public class BankAccount {
     }
 
     public String toString() { //Returns @ownerName and @balance of BankAccount
-        return "[" + ownerName.trim() + ", " + balance + "]";
+        return "[" + ownerName.trim() + ", " + "$" + balance + "]";
     }
 }
